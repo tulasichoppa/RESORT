@@ -1,0 +1,284 @@
+/*--------------------------------- section 1 ------------------------------*/
+.divya img {
+    margin-left: 15px;
+}
+
+.divya a {
+    margin-left: 25px;
+}
+
+.divya i {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.divya button {
+    padding: 10px 30px 10px 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+/*-------------------------------- section 3------------------------------ */
+.ut {
+    background-color: rgb(225, 171, 71);
+    height: 180px;
+}
+
+.ut h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.ut h4 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.ut h3 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/*----------------------------------- section 4 ----------------------------*/
+.satish h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.satish p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.satish h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.devi img {
+    height: 300px;
+    margin-top: 40px;
+}
+
+.devi img {
+    filter: brightness(100%);
+}
+
+.devi img:hover {
+    filter: brightness(30%);
+}
+
+.devi h6 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.satish h6 {
+    color: rgb(202, 134, 52);
+}
+
+/*-------------------------- section 5----------------------------------- */
+.bbb img {
+    height: 240px;
+    margin-top: 60px;
+}
+
+.bbb img {
+    filter: hue-rotate(180deg);
+}
+
+.bbb img:hover {
+    filter: hue-rotate(90deg);
+    transition: 0.8s;
+}
+
+.bbb h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 35px;
+    color: rgb(196, 152, 71);
+}
+
+/*---------------------------------- section 6 -----------------------------------*/
+.card {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    background: #ceefc5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.card-details {
+    color: rgb(7, 6, 6);
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+
+.card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #0a0b0c;
+    color: #e5d7d7;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.text-body {
+    color: rgb(198, 8, 8);
+}
+
+/*Text*/
+.text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*Hover*/
+.card:hover {
+    border-color: #3803bd;
+    box-shadow: 0 9px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+
+.ccc p {
+    font-size: 15px;
+}
+
+.ccc h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.ccc {
+    margin-top: 10px;
+    background-color: #3d3a41;
+    height: 350px;
+}
+
+/*------------------- section 6 -----------------------------------*/
+
+.hhh {
+    background-color: rgb(8, 8, 7);
+    height: 480px;
+}
+
+.hhh img {
+    margin-top: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.cards .red {
+    background-color: #f38612;
+}
+
+.cards .blue {
+    background-color: #3b82f6;
+}
+
+.cards .green {
+    background-color: #ef8310;
+}
+
+.cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.cards .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.cards .card p.second-text {
+    font-size: .7em;
+}
+
+.cards .card:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.cards:hover>.card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+}
+
+/*---------------------------- section 7 --------------------------------*/
+.ooo {
+    background-color: #1a181d;
+}
+
+.ooo h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(244, 247, 243);
+}
+
+.ooo h3 {
+    font-size: 15px;
+    margin-top: 35px;
+    text-align: center;
+    color: rgb(241, 244, 240);
+}
+
+.ooo h4 {
+    font-size: 19px;
+    margin-top: 35px;
+    text-align: center;
+    color: rgb(249, 251, 247);
+
+}
+
+.ooo h5 {
+    font-size: 29px;
+    margin-top: 45px;
+    text-align: center;
+    color: rgb(249, 251, 248);
+}
+
+.ooo p {
+    font-size: 18px;
+    margin-top: 35px;
+    text-align: center;
+    color: rgb(247, 250, 246);
+}
